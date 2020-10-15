@@ -1,0 +1,17 @@
+1. SELECT name FROM staff
+2. SELECT department_id FROM staff
+3. SELECT * FROM staff ORDER BY name
+4. SELECT * FROM staff ORDER BY name AND department_id DESC
+5. SELECT * FROM staff WHERE name="KAY THWE" OR name="THAE SU WAI"
+6. SELECT * FROM staff WHERE department_id="6"
+7. SELECT * FROM staff WHERE name LIKE "a%"
+8. SELECT * FROM staff WHERE name LIKE "%e"
+9. SELECT * FROM staff WHERE salary between '100000' AND '500000'
+10.
+11.
+12.SELECT * FROM staff WHERE department_id="1"
+13.SELECT * FROM staff LIMIT 5
+14.SELECT MAX(salary) FROM staff
+15.
+16.
+17.SELECT * FROM staff WHERE name="AYE AYE"
